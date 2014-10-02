@@ -297,7 +297,7 @@ create table visitor  (
    visitor_city       varchar(100),
    hiring_date        date,
    user_name          varchar(50)                    not null,
-   password           varchar(50)                    not null,
+   password           varchar(100)                   not null,
    salt               varchar(23)                    not null,
    role               varchar(100)                   not null,
    visitor_type       char(1),
